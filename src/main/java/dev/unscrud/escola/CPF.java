@@ -15,7 +15,7 @@ public class CPF {
   }
 
   private boolean isInvalido(String numero) {
-    final String REGEX = "\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{}";
+    final String REGEX = "\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}";
     return !numero.matches(REGEX);
   }
 }
