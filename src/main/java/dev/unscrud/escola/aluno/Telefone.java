@@ -1,4 +1,4 @@
-package dev.unscrud.escola;
+package dev.unscrud.escola.aluno;
 
 public class Telefone {
   private String ddd;

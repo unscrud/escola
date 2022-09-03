@@ -1,4 +1,4 @@
-package dev.unscrud.escola;
+package dev.unscrud.escola.aluno;
 
 public class Email {
   private String endereco;

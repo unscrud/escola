@@ -8,6 +8,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import dev.unscrud.escola.aluno.Email;
+
 public class EmailTest {
   @Test
   void naoDeveriaCriarEmailsComEnderecosInvalidos() {

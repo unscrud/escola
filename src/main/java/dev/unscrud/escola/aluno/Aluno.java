@@ -1,4 +1,4 @@
-package dev.unscrud.escola;
+package dev.unscrud.escola.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
