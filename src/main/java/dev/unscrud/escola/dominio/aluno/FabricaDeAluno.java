@@ -1,4 +1,4 @@
-package dev.unscrud.escola.aluno;
+package dev.unscrud.escola.dominio.aluno;
 
 public class FabricaDeAluno {
   private Aluno aluno;

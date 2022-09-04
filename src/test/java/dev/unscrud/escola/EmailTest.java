@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import dev.unscrud.escola.aluno.Email;
+import dev.unscrud.escola.dominio.aluno.Email;
 
 public class EmailTest {
   @Test

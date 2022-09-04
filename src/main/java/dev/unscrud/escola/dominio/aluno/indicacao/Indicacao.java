@@ -1,8 +1,8 @@
-package dev.unscrud.escola.indicacao;
+package dev.unscrud.escola.dominio.aluno.indicacao;
 
 import java.time.LocalDateTime;
 
-import dev.unscrud.escola.aluno.Aluno;
+import dev.unscrud.escola.dominio.aluno.Aluno;
 
 public class Indicacao {
   private Aluno indicado;

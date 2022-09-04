@@ -1,4 +1,4 @@
-package dev.unscrud.escola.aluno;
+package dev.unscrud.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;

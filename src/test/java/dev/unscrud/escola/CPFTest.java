@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import dev.unscrud.escola.aluno.CPF;
+import dev.unscrud.escola.dominio.aluno.CPF;
 
 public class CPFTest {
   private final String[] numerosInvalidos = { null, "teste", "1234567890", "123.123.I23-l2" };

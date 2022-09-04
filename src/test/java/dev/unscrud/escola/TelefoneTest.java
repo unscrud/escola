@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import dev.unscrud.escola.aluno.Telefone;
+import dev.unscrud.escola.dominio.aluno.Telefone;
 
 public class TelefoneTest {
   private final String[] dddsInvalidos = { null, "1", "a4", "333" };
