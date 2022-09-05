@@ -10,6 +10,7 @@ import java.util.List;
 import dev.unscrud.escola.dominio.aluno.Aluno;
 import dev.unscrud.escola.dominio.aluno.CPF;
 import dev.unscrud.escola.dominio.aluno.Email;
+import dev.unscrud.escola.dominio.aluno.RepositorioDeAlunos;
 import dev.unscrud.escola.dominio.aluno.Telefone;
 
 public class RepositorioDeAlunoComJDBC implements RepositorioDeAlunos {

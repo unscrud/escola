@@ -5,6 +5,7 @@ import java.util.List;
 
 import dev.unscrud.escola.dominio.aluno.Aluno;
 import dev.unscrud.escola.dominio.aluno.CPF;
+import dev.unscrud.escola.dominio.aluno.RepositorioDeAlunos;
 
 public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
   private List<Aluno> matriculados = new ArrayList<>();
