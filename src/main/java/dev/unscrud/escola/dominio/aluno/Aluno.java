@@ -7,6 +7,8 @@ public class Aluno {
   private CPF cpf;
   private String nome;
   private Email email;
+  private String senha;
+
   private List<Telefone> telefones = new ArrayList<>();
 
   public Aluno(CPF cpf, String nome, Email email) {
@@ -33,6 +35,14 @@ public class Aluno {
 
   public List<Telefone> getTelefones() {
     return telefones;
+  }
+
+  public void setSenha(String senha) {
+    this.senha = senha;
+  }
+
+  public String getSenha() {
+    return senha;
   }
 
 }
