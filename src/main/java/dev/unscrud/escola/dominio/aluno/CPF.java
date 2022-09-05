@@ -3,7 +3,7 @@ package dev.unscrud.escola.dominio.aluno;
 public class CPF {
   private String numero;
 
-  public String getEndereco() {
+  public String getNumero() {
     return numero;
   }
 
