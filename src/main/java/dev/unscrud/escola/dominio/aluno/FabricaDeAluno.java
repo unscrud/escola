@@ -12,4 +12,8 @@ public class FabricaDeAluno {
     this.aluno.adicionaTelefone(ddd, numero);
     return this;
   }
+
+  public Aluno getAluno() {
+    return aluno;
+  }
 }
