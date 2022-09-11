@@ -18,6 +18,8 @@ public class Aluno {
   }
 
   public void adicionaTelefone(String ddd, String numero) {
+    if (this.telefones.size() >= 2)
+      throw new QuantidadeMaximaDeTelefonesException("O aluno não pode ter mais de 2 telefones!");
     this.telefones.add(new Telefone(ddd, numero));
   }
 
