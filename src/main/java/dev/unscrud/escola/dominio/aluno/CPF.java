@@ -18,4 +18,9 @@ public class CPF {
     final String REGEX = "\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}";
     return !numero.matches(REGEX);
   }
+
+  @Override
+  public String toString() {
+    return numero;
+  }
 }
